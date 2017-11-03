@@ -31,7 +31,7 @@ def example_data():
 
     cards_against_humans = Game(name='cards_against_humans',
                                 description=CAH_DESC)
-    fibbage = Game(name='fibbbage',
+    fibbage = Game(name='fibbage',
                    description=FIBBAGE_DESC)
 
     db.session.add_all([cards_against_humans, fibbage])
